@@ -1,0 +1,142 @@
+
+
+
+
+
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-image:  url(ma.jpg);
+    /* background-color: whitesmoke; */
+}
+
+#container{
+	width: 1000px;
+	height: 550px;
+	margin: 20px auto;	
+}
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: white;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+	height: 120px;
+	border: solid grey 3px;
+	background-color: black;
+	color: wheat;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#keyboard{
+	height: 400px;
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	/* border-radius: 50%;
+	border-width: 0; */
+	font-weight: bold;
+	font-size: 15px;
+	outline: none;
+}
+
+button{
+	outline: none;
+}
+
+.eq{
+	font-size: 30px;
+	width: 4em;
+}
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+      padding-top: 5em;
+    }
+  }
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+
+    #container{
+        margin-top: 20em;
+    }
+
+    #calculator{
+    margin-top: 30em;
+	width: 720px;
+	height: 920px;
+	background-color: white;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+
+	
+}
+
+.operator, .number, .empty{
+	width: 150px;
+	height: 100px;
+	margin: 15px;
+	float: left;
+	/* border-radius: 50%;
+	border-width: 0; */
+	font-weight: bold;
+	font-size: 35px;
+	outline: none;
+    margin-top: 26px;
+}
+
+
+.eq{
+	font-size: 30px;
+	width: 10em;
+    margin-left: 1em;
+}
+
+#result{
+	height: 200px;
+	border: solid grey 3px;
+	background-color: black;
+	color: white;
+  
+
+}
+
+.his_val{
+    font-size: 2em;
+}
+
+/* #history{
+    font-size: 5em;
+
+} */
+
+  }
